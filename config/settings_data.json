@@ -204,10 +204,26 @@
               "button_2_text": "",
               "button_2_link": ""
             }
+          },
+          "image_TXf7gR": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Desktop_-_3200_x_1200px.webp",
+              "mobile_image": "shopify://shop_images/Desktop_-_3200_x_1200px_2.webp",
+              "apply_overlay": false,
+              "content_position": "bottomCenter",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "shop the winter edito",
+              "button_1_link": "https://boardcollective.com.au/collections/the-winter-edit",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
           }
         },
         "block_order": [
-          "image_AhfJfY"
+          "image_AhfJfY",
+          "image_TXf7gR"
         ],
         "custom_css": [
           "section .Slideshow__Content .SectionHeader {display: flex; flex-direction: column-reverse; gap: 15px;}",
