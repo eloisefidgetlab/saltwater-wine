@@ -172,11 +172,11 @@
               "menu": "support"
             }
           },
-          "footer-newsletter": {
+          "newsletter_Erd8TP": {
             "type": "newsletter",
             "settings": {
-              "title": "NEVER MISS OUT",
-              "content": "<p>Subscribe for the latest news, brands and offers.</p>",
+              "title": "Newsletter",
+              "content": "<p>A short sentence describing what someone will receive by subscribing</p>",
               "klaviyo_form_id": "XhgudH"
             }
           }
@@ -186,7 +186,7 @@
           "a1df85a6-49ab-441d-83e9-99ef0ac2554a",
           "4a44657d-959c-4dce-8d45-fd0cda579c3e",
           "a192efb8-1029-4bd6-a734-7d60edb39143",
-          "footer-newsletter"
+          "newsletter_Erd8TP"
         ],
         "settings": {
           "show_payment_methods": false,
@@ -223,7 +223,7 @@
               "content_position": "bottomCenter",
               "subheading": "",
               "title": "",
-              "button_1_text": "shop the winter edito",
+              "button_1_text": "shop the winter",
               "button_1_link": "https://boardcollective.com.au/collections/the-winter-edit",
               "button_2_text": "",
               "button_2_link": ""
@@ -279,48 +279,56 @@
       "collection-list": {
         "type": "collection-list",
         "blocks": {
-          "collection_WVWb3r": {
+          "collection-0": {
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify://shop_images/IN_HOUSE_BANNER_IMAGES_5.png",
               "image_alignment": "center center",
-              "content_position": "bottomCenter",
-              "subheading": "",
-              "title": "",
-              "button_text": "SHOP SURF",
-              "button_link": "https://boardcollective.com.au/collections/straight-up",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
               "apply_overlay": true
             }
           },
-          "collection_ADGRQx": {
+          "collection-1": {
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify://shop_images/IN_HOUSE_BANNER_IMAGES.png",
               "image_alignment": "center center",
-              "content_position": "bottomCenter",
-              "subheading": "",
-              "title": "",
-              "button_text": "SHOP MENS",
-              "button_link": "https://boardcollective.com.au/collections/forefront",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "apply_overlay": true
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
               "apply_overlay": true
             }
           }
         },
         "block_order": [
-          "collection_WVWb3r",
-          "collection_ADGRQx"
+          "collection-0",
+          "collection-1",
+          "collection-2"
         ],
+        "disabled": true,
         "settings": {
-          "image_size": "small",
+          "image_size": "normal",
           "add_spacing": true,
-          "expand_collection": true,
-          "is_top_banner": false,
+          "expand_collection": false,
           "stack_on_mobile": true,
           "text_color": "#ffffff",
-          "button_color": "#ffffff",
-          "background_color": "#000000"
+          "button_color": "#363636"
         }
       },
       "featured-product": {
@@ -402,6 +410,7 @@
         "block_order": [
           "blog-0"
         ],
+        "disabled": true,
         "settings": {
           "subheading": "",
           "title": "Featured article",
@@ -1267,34 +1276,6 @@
       },
       "USP-section": {
         "type": "USP-section",
-        "blocks": {
-          "16152807571355e015-0": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/shipping.png",
-              "text": "SHIPPING FROM $12"
-            }
-          },
-          "34c3bdfa-f6a6-48c9-9269-c5e90d1b6bfb": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/delivery.png",
-              "text": "FREE DELIVERY ON ORDERS OVER $125*"
-            }
-          },
-          "29ab4829-6eb0-4fdf-a116-7832818ad6ea": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/clickc_collect.png",
-              "text": "CLICK & COLLECT"
-            }
-          }
-        },
-        "block_order": [
-          "16152807571355e015-0",
-          "34c3bdfa-f6a6-48c9-9269-c5e90d1b6bfb",
-          "29ab4829-6eb0-4fdf-a116-7832818ad6ea"
-        ],
         "settings": {
           "title": "USP Section"
         }
@@ -1307,191 +1288,19 @@
           "button_link": ""
         }
       },
-      "featured-products-salt-board": {
-        "type": "featured-products-salt-board",
-        "blocks": {
-          "product_YKPnK9": {
-            "type": "product",
-            "settings": {
-              "image": "shopify://shop_images/thrillsta25102gdarkcharcoal1_600x_da8aa59d-6a36-4cf7-a4ba-6c287d0522fb.jpg",
-              "brand": "THRILLS",
-              "product_name": "Chain Of Formation Box Fit Oversize Tee",
-              "price": "$69.99",
-              "product_link": "https://boardcollective.com.au/collections/mens-new-in/products/ta25-102g"
-            }
-          },
-          "product_6mYqDR": {
-            "type": "product",
-            "settings": {
-              "image": "shopify://shop_images/itsnowcoolinc735whewheat1_600x_b85387a2-e5e1-485c-8ed3-d987bff469ee.jpg",
-              "brand": "IT'S NOW COOL",
-              "product_name": "The Brumby Hat",
-              "price": "$70",
-              "product_link": "https://boardcollective.com.au/collections/womens-new-in-1/products/inc735-whe"
-            }
-          },
-          "product_Rfgry8": {
-            "type": "product",
-            "settings": {
-              "image": "shopify://shop_images/billabongabyft00501oahoatmealheather1_600x_ad93de2e-610f-4757-a098-79bc850cbd51.jpg",
-              "brand": "BILLABONG",
-              "product_name": "Boundary Tombstone Fleece",
-              "price": "$139.99",
-              "product_link": "https://boardcollective.com.au/collections/mens-new-in/products/abyft00501-oah"
-            }
-          },
-          "product_7RwGAC": {
-            "type": "product",
-            "settings": {
-              "image": "shopify://shop_images/rhythmpp1024wfl01blkblack1_600x_2707e1ec-57b4-456c-b457-2578eec817a0.jpg",
-              "brand": "RHYTHM",
-              "product_name": "Flagship Boyfriend Fleece Crew",
-              "price": "$59.99",
-              "product_link": "https://boardcollective.com.au/collections/womens-new-in-1/products/pp1024w-fl01-blk"
-            }
-          }
-        },
-        "block_order": [
-          "product_YKPnK9",
-          "product_6mYqDR",
-          "product_Rfgry8",
-          "product_7RwGAC"
-        ],
-        "settings": {
-          "subheading": "",
-          "title": "SHOP THE LATEST",
-          "button_text": "SHOP ALL",
-          "button_link": "/collections/all"
-        }
-      },
       "featured-brands": {
         "type": "featured-brands",
-        "blocks": {
-          "059ab22b-720f-4f5c-9c85-431e2df2c98e": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/LOGO_BLACK_1.png",
-              "link": "https://boardcollective.com.au/collections/billabong"
-            }
-          },
-          "2153152f-856c-4b13-b092-ee136f811e99": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/birkenstock.png",
-              "link": "https://boardcollective.com.au/collections/birkenstocks"
-            }
-          },
-          "634b19aa-2213-431a-8e9a-bd2f2e306c8e": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/blundstonelogo.png",
-              "link": "https://boardcollective.com.au/collections/blundstone"
-            }
-          },
-          "item_yJer8n": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/Brand_Block_Logos_4.png",
-              "link": "https://boardcollective.com.au/collections/the-critical-slide-society"
-            }
-          },
-          "d7605193-ffe4-44e9-9d1b-eb75370ce6bb": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/IN_HOUSE_BANNER_IMAGES_6.png",
-              "link": "https://boardcollective.com.au/collections/forefront"
-            }
-          },
-          "item_pwdRPT": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/Brand_Block_Logos.png",
-              "link": "https://boardcollective.com.au/collections/former"
-            }
-          },
-          "2f017740-96af-44fe-b8fc-0d535fa4d259": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/OTIS-PRIMARY-LOGO.jpg",
-              "link": "https://boardcollective.com.au/collections/otis"
-            }
-          },
-          "item_UqRDgq": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/Brand_Block_Logos_5.png",
-              "link": "https://boardcollective.com.au/collections/patagonia"
-            }
-          },
-          "b4c922c8-4d98-4b62-b9f1-c56ae5b99ca3": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/quiksilver-logo-1.png",
-              "link": "https://boardcollective.com.au/collections/quiksilver"
-            }
-          },
-          "c9515833-4dbd-42a5-ab47-a0785b6b5918": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/Logo_file.jpg",
-              "link": "https://boardcollective.com.au/collections/rhythm"
-            }
-          },
-          "0e2f9d92-3840-4f4f-bb41-130dc672efa7": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/ripcurl.png",
-              "link": "https://boardcollective.com.au/collections/rip-curl"
-            }
-          },
-          "item_9MNLXR": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/Brand_Block_Logos_6.png",
-              "link": "https://boardcollective.com.au/collections/rivvia-projects"
-            }
-          },
-          "b6df9aec-90ef-4391-94ce-92fff12358fd": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/kisspng-roxy-logo-decal-quiksilver-clothing-endeavour-hills-5b3b2a7dc8c2e2.2118683215306041578223.png",
-              "link": "https://boardcollective.com.au/collections/roxy"
-            }
-          },
-          "item_PrPfbK": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/Brand_Block_Logos_7.png",
-              "link": "https://boardcollective.com.au/collections/seafolly"
-            }
-          },
-          "item_UKh6WH": {
-            "type": "item",
-            "settings": {
-              "image": "shopify://shop_images/Brand_Block_Logos_8.png",
-              "link": "https://boardcollective.com.au/collections/straight-up"
-            }
-          }
-        },
-        "block_order": [
-          "059ab22b-720f-4f5c-9c85-431e2df2c98e",
-          "2153152f-856c-4b13-b092-ee136f811e99",
-          "634b19aa-2213-431a-8e9a-bd2f2e306c8e",
-          "item_yJer8n",
-          "d7605193-ffe4-44e9-9d1b-eb75370ce6bb",
-          "item_pwdRPT",
-          "2f017740-96af-44fe-b8fc-0d535fa4d259",
-          "item_UqRDgq",
-          "b4c922c8-4d98-4b62-b9f1-c56ae5b99ca3",
-          "c9515833-4dbd-42a5-ab47-a0785b6b5918",
-          "0e2f9d92-3840-4f4f-bb41-130dc672efa7",
-          "item_9MNLXR",
-          "b6df9aec-90ef-4391-94ce-92fff12358fd",
-          "item_PrPfbK",
-          "item_UKh6WH"
-        ],
         "settings": {
-          "title": "FEATURED BRANDS"
+          "title": ""
+        }
+      },
+      "featured-products-salt-board": {
+        "type": "featured-products-salt-board",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "button_text": "",
+          "button_link": ""
         }
       }
     },
