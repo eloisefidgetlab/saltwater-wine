@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -34,7 +43,10 @@
           }
         }
       },
-      "block_order": ["image_AhfJfY", "image_TXf7gR"],
+      "block_order": [
+        "image_AhfJfY",
+        "image_TXf7gR"
+      ],
       "custom_css": [
         "section .Slideshow__Content .SectionHeader {display: flex; flex-direction: column-reverse; gap: 15px;}",
         "section .Slideshow__Content .SectionHeader h3 {text-transform: none; letter-spacing: 2px; font-size: 16px; line-height: 1.5;}",
@@ -75,7 +87,11 @@
           }
         }
       },
-      "block_order": ["usp-0", "usp-1", "usp-2"],
+      "block_order": [
+        "usp-0",
+        "usp-1",
+        "usp-2"
+      ],
       "settings": {
         "title": "USP Section"
       }
@@ -112,7 +128,10 @@
           }
         }
       },
-      "block_order": ["col-0", "col-1"],
+      "block_order": [
+        "col-0",
+        "col-1"
+      ],
       "settings": {
         "image_size": "small",
         "add_spacing": true,
@@ -168,7 +187,12 @@
           }
         }
       },
-      "block_order": ["prod-0", "prod-1", "prod-2", "prod-3"],
+      "block_order": [
+        "prod-0",
+        "prod-1",
+        "prod-2",
+        "prod-3"
+      ],
       "settings": {
         "subheading": "",
         "title": "SHOP THE LATEST",
@@ -286,9 +310,21 @@
         }
       },
       "block_order": [
-        "brand-0", "brand-1", "brand-2", "brand-3", "brand-4",
-        "brand-5", "brand-6", "brand-7", "brand-8", "brand-9",
-        "brand-10", "brand-11", "brand-12", "brand-13", "brand-14"
+        "brand-0",
+        "brand-1",
+        "brand-2",
+        "brand-3",
+        "brand-4",
+        "brand-5",
+        "brand-6",
+        "brand-7",
+        "brand-8",
+        "brand-9",
+        "brand-10",
+        "brand-11",
+        "brand-12",
+        "brand-13",
+        "brand-14"
       ],
       "settings": {
         "title": "FEATURED BRANDS"
@@ -304,11 +340,14 @@
           }
         }
       },
-      "block_order": ["blog-0"],
+      "block_order": [
+        "blog-0"
+      ],
       "settings": {
         "subheading": "",
         "title": "Featured article",
         "show_category": false,
+        "button_link": "shopify://blogs/news",
         "button_text": "View all articles"
       }
     }
